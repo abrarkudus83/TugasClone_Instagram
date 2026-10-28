@@ -2,6 +2,7 @@ import 'package:flutter_project1/Pages/registration_page.dart';
 import 'package:flutter_project1/Pages/confirm_reg_page.dart';
 import 'package:flutter_project1/Pages/kalkulator_page.dart';
 import 'package:flutter_project1/landing_page.dart';
+import 'Pages/menu_drawer_page.dart';
 import 'package:flutter_project1/routes.dart';
 import 'package:get/get_navigation/src/root/get_material_app.dart';
 import 'Pages/login_Instagram.dart';
@@ -23,7 +24,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return GetMaterialApp(
       title: "My Learning App",
-      initialRoute: Routes.list_makanan,
+      initialRoute: Routes.menuDrawerPage,
       getPages: Routes.myPages,
     );
   }
